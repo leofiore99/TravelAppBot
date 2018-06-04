@@ -35,9 +35,9 @@ namespace TravelAppMobile.ViewModels
             _messages = new ObservableCollection<ConversationMessage>();
             _messages.Add(new ConversationMessage
             {
-                Message = "Olá, vamos agendar um horário?",
+                Message = "Olá, agende seu horário!",
                 FromUser = "Cabeleireira",
-                UserImageUrl = "travelagent.jpg"
+                UserImageUrl = "cabeleireira.jpg"
             });
         }
 
@@ -88,7 +88,7 @@ namespace TravelAppMobile.ViewModels
                         {
                             FromUser = msgItem.From == "TalkToLuisBot" ? "CABELEIREIRA" : "CLIENTE",
                             Message = msgItem.Text,
-                            UserImageUrl = msgItem.From == "TalkToLuisBot" ? "travelagent.png" : "leo.png" //travelagentbotcn IS THE NAME OF THE BOT YOU CREATED
+                            UserImageUrl = msgItem.From == "TalkToLuisBot" ? "cabeleireira.png" : "leo.png" //travelagentbotcn IS THE NAME OF THE BOT YOU CREATED
                         });
                     }
 

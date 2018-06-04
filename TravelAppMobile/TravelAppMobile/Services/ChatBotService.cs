@@ -15,7 +15,7 @@ namespace TravelAppMobile.Services
     {
         private readonly string _baseBotEndPointAddress = "https://directline.botframework.com";
         private HttpClient _client;
-        private string _directLineKey = "-TIuCkJ29Z8.cwA.Mz0.Q9RWjl6ghzVdDllnKG7GiEO1VfIDahe602jc2NCqOeQ";
+        private string _directLineKey = "-TIuCkJ29Z8.cwA.lHA.mHwtsHyF4cOQfF4IKYHkvteJ0YwL6_o-JCEew-IjRhM";
         private Conversation _lastConversation = null;
 
         public ChatBotService()

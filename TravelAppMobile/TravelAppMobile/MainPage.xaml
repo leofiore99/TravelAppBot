@@ -103,7 +103,7 @@
             <!--MAIN PAGE-->
             <Grid x:Name="MainViewGrid" VerticalOptions="FillAndExpand">
                 <ffimage:CachedImage DownsampleToViewSize="True" 
-                                 Source="burjkalifha_bg.jpg" 
+                                 Source="salao.jpg" 
                                  Aspect="AspectFill">
                 </ffimage:CachedImage>
                 <StackLayout>

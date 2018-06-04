@@ -15,7 +15,7 @@
     <ContentPage.Content>
         <Grid>
             <forms:CachedImage DownsampleToViewSize="True" 
-                                    Source="burjkalifha_bg.jpg" 
+                                    Source="salao.jpg" 
                                     Aspect="AspectFill">
             </forms:CachedImage>
             <Grid VerticalOptions="Start" HorizontalOptions="FillAndExpand" Margin="10, 10, 0,0">
